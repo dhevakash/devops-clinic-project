@@ -145,7 +145,7 @@ public class PatientDetailsCRUDTest {
 		driver = new ChromeDriver();
 
 		driver.manage().window().setSize(new Dimension(1920, 1080));
-		// perform login
+		// perform login function
 		login_patient_user();
 		driver.findElement(By.linkText("My Account")).click();
 
