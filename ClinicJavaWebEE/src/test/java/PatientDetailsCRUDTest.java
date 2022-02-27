@@ -16,7 +16,7 @@ public class PatientDetailsCRUDTest {
 	private WebDriver driver;
 
 	public void login_patient_user() {
-		// perform login
+		// perform loginn
 		driver.get("http://localhost:8090/ClinicJavaWebEE/login.jsp");
 		// enter a valid username
 		WebElement username = driver.findElement(By.name("username"));
