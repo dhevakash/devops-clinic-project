@@ -40,7 +40,7 @@ public class PatientDetailsCRUDTest {
 
 		driver.manage().window().setSize(new Dimension(1920, 1080));
 
-		// perform register
+		// perform register function
 		driver.get("http://localhost:8090/ClinicJavaWebEE/register.jsp");
 
 		// enter a valid username to register
